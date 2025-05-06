@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+
+.logo {
+    width: 350px;
+    height: 280px;
+    display: block;
+    margin: 20px auto;
+    cursor: pointer;
+    border: none;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    display: block;
+    margin: auto;
+    padding: 44px 24px 22px;
+}
+
+label {
+    color: #777777;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+select, input {
+    width: 327px;
+    height: 48px;
+    border-radius: 10px;
+    border-color: #BBBBBB;
+    margin-bottom: 24px;
+    cursor: pointer;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    color: #555555;
+    border: none;
+}
+
+select:hover {
+    box-shadow: 5px 5px 15px rgba(86, 86, 86, 0.5);
+}
+
+input:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+button {
+    width: 327px;
+    height: 48px;
+    background: #772FD3;
+    margin-bottom: 24px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    
+}
+button:active{
+    opacity: 0.7;
+   
+}
+
+section {
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    margin-top: 36px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 15px 30px;
+}
+
+.seta {
+    margin: 15px 30px;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    display: inline;
+}
+
+p {
+    width: 327px;
+    font-weight: 900;
+    color: #555555;
+}
